@@ -1,0 +1,42 @@
+.top-section{
+	padding-top: 96px;
+}
+
+.box {
+  border: 5px solid darkblue;
+  height: 150px;
+  width: 200px;
+}
+
+.selling-price{
+  font-size: 17px;
+  font-weight: 400;
+  color: grey;
+  margin-right: 10px;
+}
+
+.offer-price{
+  font-size: 24px;
+  font-weight: 600;
+  color: #262626;
+  margin-right: 10px;
+}
+
+.sort-font{
+  color: #262626;
+  font-size: 15px;
+  margin: 0 10px;
+}
+
+/*Quantity Btn*/
+.qty-input{
+  /*for absolutely positioning spiners*/
+  position: relative;
+  padding: 5px;
+  padding-right: 25px;
+}
+
+.qty-input::-webkit-inner-spin-button,
+.qty-input::-webkit-outer-spin-button{
+  opacity: 1;
+}
